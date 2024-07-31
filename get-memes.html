@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Memes</title>
+    <link rel="stylesheet" href="get-memes.css" />
+  </head>
+  <body>
+    <!-- nav and title -->
+    <div id="web-title-container">
+      <a href="index.html"
+        ><img id="web-title" src="./assets/title.png" alt=""
+      /></a>
+    </div>
+    <div id="page-title-container">
+      <h1 id="page-title">Random Meme Generator</h1>
+    </div>
+
+    <!-- interface -->
+    <div id="meme-container">
+      <div id="button-container">
+        <button id="button" onclick="getMemes()">Generate New Meme</button>
+      </div>
+      <div id="image-container"></div>
+      <div id="caption-container"></div>
+    </div>
+    <script src="get-memes.js"></script>
+  </body>
+</html>
